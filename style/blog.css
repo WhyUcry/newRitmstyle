@@ -36,8 +36,8 @@ nav ul {
 }
 
 .links ul li a:hover {
-    color: aqua;
-    border-bottom: 1px solid aqua;
+    color: #0188be;
+    border-bottom: 1px solid #0188be;
     transition: all 0.3s;
 }
 
