@@ -19,3 +19,9 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       prevEl: '.swiper-button-prev',
     }
 });
+
+
+// const width = window.innerWidth;
+// const height = window.innerHeight;
+// alert("Ширина экрана: " + width + "px");
+// alert("Высота экрана: " + height + "px");

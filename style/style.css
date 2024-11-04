@@ -6,6 +6,7 @@
     color: white;
     font-family: sans-serif;
     /* overflow-x: hidden; */
+    box-sizing: border-box;
 }
 
 body, html {
@@ -46,9 +47,16 @@ nav ul {
     border-radius: 3px;
 }
 
+.seans_button button:hover {
+    background-color: #018ABE80;
+    transition: all 0.3s;
+}
+
 .seans_button button p {
     padding: 9px 15px;
 }
+
+/* welcome post */
 
 .wlcmpost {
     display: flex;
@@ -410,6 +418,7 @@ nav ul {
 .сosts_title {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .сosts_title h1 {
@@ -475,33 +484,139 @@ nav ul {
 }
 
 .costs_sertification img {
-    width: 526px;
+    width: 456px;
     height: 396px;
+    border-radius: 10px;
 }
 
+/* map */
 
+.map {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
 
+.main_map iframe {
+    border-radius: 10px;
+}
 
+.pool_adress {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
+.pool_workclass, .pool_goroh {
+    width: 392px;
+    height: 290px;
+    background-color: #0188be;
+    border-radius: 10px;
 
+}
 
+.pool_workclass h2 {
+    padding-top: 35px;
+    padding-left: 45px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+}
 
+.pool_workclass ul {
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
 
+.pool_workclass ul li {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
 
+#first_float::before {
+    content: url(./img/map_point.svg);
+    margin-right: 20px;
+}
 
+#second_float::before {
+    content: url(./img/map_metro.svg);
+    margin-right: 20px;
+}
 
+#third_float::before {
+    content: url(./img/map_callendar.svg);
+    margin-right: 20px;
+}
 
+.pool_workclass button {
+    margin-top: 30px;
+    margin-left: 45px;
+    background-color: #fff;
+    color: #0188be;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 15px 9px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.pool_goroh h2 {
+    padding-top: 35px;
+    padding-left: 45px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+}
 
+.pool_goroh ul {
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
 
+.pool_goroh ul li {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
 
+.pool_goroh button {
+    margin-top: 30px;
+    margin-left: 45px;
+    background-color: #fff;
+    color: #0188be;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 15px 9px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pool_workclass button:hover {
+    background-color: #162831;
+    transition: all 0.3s;
+}
+
+.pool_goroh button:hover {
+    background-color: #162831;
+    transition: all 0.3s;
+}
 
 /* FOOTER */
 
 footer {
+    margin-top: 90px;
     display: flex;
     justify-content: center;
     gap: 1031px;
+    padding-bottom: 30px;
 }
 
 .leftpart, .rightpart p {

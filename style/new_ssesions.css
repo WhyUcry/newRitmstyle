@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #162831;
+}
+
+/* HEADER */
+
+/* Nav */
+
+nav {
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    gap: 50px;
+}
+
+.links ul li a:hover {
+    color: aqua;
+    border-bottom: 1px solid aqua;
+}
+
+.seans_button button {
+    background-color: #0188be;
+    border: none;
+    border-radius: 3px;
+}
+
+.seans_button button:hover {
+    background-color: #018ABE80;
+    transition: all 0.3s;
+}
+
+.seans_button button p {
+    padding: 9px 15px;
+}
+
+
+.nav_border {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_border hr {
+    width: 1420px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+}
+
+
+/* MAIN */
+
+.sessions_title {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.sessions_title h1 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.sessions_title h1::before {
+    content: url(../style/img/blue\ left\ wind.svg);
+    margin-right: 45px;
+}
+
+.sessions_title h1::after {
+    content: url(../style/img/blue\ right\ wind.svg);
+    margin-left: 45px;
+}
+
+.sessions_content {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.sessions_text {
+    width: 526px;
+    height: 501px;
+}
+
+.sessions_date {
+    width: 96px;
+    padding: 6px 12px 5px 12px;
+    background-color: #0188be;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.sessions_text h3 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+}
+
+.sessions_text p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.sessions_img img {
+    width: 636px;
+    height: 394px;
+    border-radius: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 161px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer_parts {
+    display: flex;
+    width: 1420px;
+    justify-content: space-between;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 30px;
+}
+
+.leftpart, .rightpart p {
+    font-size: 14px;
+}
+
+.rightpart {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
